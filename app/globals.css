@@ -1,0 +1,13 @@
+:root{--bg:#0b1020;--card:#111833;--text:#e7ecf7;--muted:#a9b2c7;--accent:#7cc0ff;--accent2:#a9ffca}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Ubuntu,Helvetica,Arial,sans-serif;background:radial-gradient(1200px 800px at 10% -10%,#172044 0%,#0b1020 60%),var(--bg);color:var(--text)}
+main{max-width:980px;margin:40px auto;padding:0 20px}
+.header{display:flex;align-items:center;gap:12px;margin-bottom:24px}
+.badge{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#08111f;padding:6px 10px;border-radius:999px;font-weight:700;font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+.card{background:linear-gradient(180deg,var(--card),#0e1430);border:1px solid rgba(255,255,255,.06);border-radius:16px;padding:20px 20px 8px 20px;box-shadow:0 10px 30px rgba(0,0,0,.35);margin-bottom:16px}
+.card h3{margin:0 0 8px 0}
+.card p{margin:6px 0;color:var(--muted);line-height:1.6}
+.code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;background:rgba(255,255,255,.06);padding:2px 6px;border-radius:6px}
+ul{margin:8px 0 12px 18px}
+footer{color:var(--muted);margin:24px 0 60px 0;font-size:13px}
